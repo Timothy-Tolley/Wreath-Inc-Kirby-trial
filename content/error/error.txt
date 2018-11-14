@@ -1,0 +1,9 @@
+Title: Error
+
+----
+
+Intro: The page has not been found.
+
+----
+
+Text: Hmm, something's gone wrong.. Dont worry about it though, check (link: / text: this) out instead.

@@ -1,0 +1,41 @@
+Title: RETAIL PATH FINDER.
+
+----
+
+Subtext: Interactive Path Finder
+
+----
+
+Year: 2018
+
+----
+
+Text: A fullstack JavaScript based interactive web application. Fully responsive. Find your career path from retail worker to CEO. A fully customisable framework that can be easily customised to suit any click through path finding application.
+
+----
+
+ProjectNo: 1
+
+----
+
+Design: New Territory Studio
+
+----
+
+DesLink: https://newterritory.studio
+
+----
+
+Link: http://pathfinder-new.herokuapp.com/
+
+----
+
+Tech: React, Node, Express, React Transition Group
+
+----
+
+Vid: ../assets/gifs/RWR-gif.mp4
+
+----
+
+Git: https://github.com/Timothy-Tolley/word-map

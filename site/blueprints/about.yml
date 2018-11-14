@@ -1,0 +1,53 @@
+title: About
+
+pages:
+  template: team
+  num: zero
+
+files: false
+
+options: 
+  template: false  
+  status: false  
+  
+fields:
+  title:
+    label: Title
+    type: title
+    
+  maintext:
+    label: Main Text
+    type: textarea
+    
+  subtext:
+    label: Sub Text
+    type: textarea
+
+  contacttext:
+    label: Contact Emote
+    type: textarea
+
+  email:
+    label: Email
+    type: text
+
+  phonedisp:
+    label: Phone (Display)
+    type: text
+  
+  phoneplain:
+    label: Phone (plaintext)
+    type: text
+
+  linkedin:
+    label: Linkedin Profile
+    type: text
+
+  github:
+    label: Github Profile
+    type: text
+
+  instagram:
+    label: Instagram Profile
+    type: text
+

@@ -1,0 +1,102 @@
+.footer {
+  width: 100%;
+  text-align: right;
+  font-family: 'LeagueSpartan';
+  font-size: .4rem;
+  display:flex; 
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: fixed;
+  padding-left:2%;
+  padding-right: 2%;
+  bottom: 0;
+  left: 0;
+}
+
+.home-footer {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom:0;
+  left:0;
+  text-align: right;
+  font-size: .4rem;
+  display:flex; 
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-out;
+  -moz-transition: opacity 1s ease-out;
+  -o-transition: opacity 1s ease-out;
+  transition: opacity 1s ease-out;
+}
+
+.home-footer:hover {
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-out;
+  -moz-transition: opacity 1s ease-out;
+  -o-transition: opacity 1s ease-out;
+  transition: opacity 1s ease-out;
+}
+
+.footer a {
+  border-bottom: 0;
+}
+
+.footer-links{
+  width: 50%;
+  font-family: 'LeagueSpartan';
+  font-size: .5rem;
+  font-weight: 500;
+  padding-bottom: 3px;
+  padding-left: 1%;
+  margin-bottom: 4px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+}
+
+footerLink:hover {
+  color: white;
+}
+
+.li {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  color: lightgray;
+}
+
+.gh {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: lightgray;
+
+}
+
+.ig {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  color: lightgray;
+
+}
+
+.footer-copyright {
+  width: 50%;
+  font-family: 'LeagueSpartan';
+  font-size: .7rem;
+  font-weight: 500;
+  padding-bottom: 3px;
+  padding-right: 1%;
+  margin-bottom: 4px;
+}
+
+@media all and (min-width: 48em) {
+  .footer-copyright, {
+    display: inline;
+  }
+}

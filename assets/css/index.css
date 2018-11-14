@@ -1,0 +1,344 @@
+@charset "UTF-8";
+
+/* -----  Font Definitions  --------------------------------------------- */
+
+/* League Spartan */
+
+@font-face {
+  font-family: 'LeagueSpartan';
+  src: url('../fonts/leaguespartan-bold.eot');
+  src: url('../fonts/leaguespartan-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Aleo */
+@font-face {
+  font-family: 'Aleo';
+  src: url('../fonts/aleo-light-webfont.ttf') format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aleo';
+  src: url('../fonts/aleo-regular-webfont.ttf') format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aleo';
+  src: url('../fonts/aleo-bold-webfont.ttf') format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* =====  Site Layout  ==================================================== */
+
+html {
+  color: black;
+  font-family: 'Adamina', serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  overflow-y: scroll;
+  cursor: default;
+  position: relative;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgb(255, 225, 195);
+}
+
+@media all and (max-width: 30em) {
+  html {
+    font-size: 1.25em;
+  }
+}
+
+body {
+  background-color: #FFC184;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.default-text {
+  align-self: center;
+  width: 80%;
+}
+
+/* -----  Reset & Normalization  ---------------------------------------- */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* -----  General Typography  ------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, figure, pre {
+  /* Reset font-sizes and normalize margins */
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0 0 1.5rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: LeagueSpartan, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.25;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  line-height: 2.2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.25em;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out; 
+}
+
+a:hover, a:focus, a:active {
+  color: white;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out; 
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  display:flex; 
+  display: -webkit-flex;
+  flex-direction: column;
+  flex-shrink: 0
+}
+
+/* Misc */
+
+i, em {
+  font-weight: 500;
+  font-style: normal;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+mark {
+  padding: .1em .05em;
+  margin: -.1em 0;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  display:none
+}
+
+@keyframes projectsScale {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+.projects-title {
+  animation-name: projectsScale;
+  animation-duration: 4s;
+  transition: all 1s;
+}
+
+.projects-title:hover {
+  color: #FFC184;
+  transition: all 1s;
+}
+
+/* -----   Images & Figures  --------------------------------------------- */
+
+img {
+  border-style: none;
+  height: auto;
+}
+
+/* The Clearfix™: A classic … */
+.cf::after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+/* -----  Kirbytext  ---------------------------------------------------- */
+
+.intro {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.125rem;
+  margin-bottom: 3rem;
+}
+
+/* -----  2.3 Pagination  --------------------------------------------------- */
+
+/* .pagination {
+  margin-bottom: 1.5rem;
+}
+
+.pagination-item {
+  position: relative;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: #efeeed;
+  color: black;
+  border-bottom: 0;
+}
+
+.pagination-item:hover, .pagination-item:focus {
+  background: black;
+  color: black;
+}
+
+.pagination-item:active {
+  background: white;
+}
+
+.pagination-item.left {
+  float: left;
+}
+
+.pagination-item.right {
+  float: right;
+}
+
+.pagination-item svg {
+  position: relative;
+  top: 50%;
+  display: block;
+  margin: -6px auto 0;
+  width: 24px;
+  height: 12px;
+}
+
+.pagination-item path {
+  fill: currentColor;
+}
+
+.pagination-item.is-inactive {
+  color: #e4e3e6;
+  border: 2px solid currentColor;
+  background: transparent;
+}
+
+@media all and (min-width: 75em) {
+  .pagination-item {
+    position: fixed;
+    top: 50%;
+    margin-top: -.875rem;
+  }
+  .pagination-item.left {
+    float: none;
+    left: 2.25rem;
+  }
+  .pagination-item.right {
+    float: none;
+    right: 2.25rem;
+  }
+}
+
+@media all and (pointer: coarse) {
+  .pagination-item {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+} */
+
+
+
+/* =====  4 Template-specific Components ==================================== */
+
+
+
+/* ----- 4.2 Blog Article  -------------------------------------------------- */
+
+/* .article-title {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.article-title a {
+  border-bottom: 0;
+}
+
+.article-date {
+  text-align: center;
+}
+
+.article:last-of-type + hr {
+  display: none;
+}
+
+.article-more {
+  font-size: 75%;
+  text-transform: uppercase;
+  font-family: LeagueSpartan, Helvetica, Arial, sans-serif;
+  letter-spacing: .025em;
+  white-space: nowrap;
+  border-bottom: 2px solid black;
+} */
+
+

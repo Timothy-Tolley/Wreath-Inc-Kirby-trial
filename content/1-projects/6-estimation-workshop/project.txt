@@ -1,0 +1,41 @@
+Title: ESTIMATION WORKSHOP.
+
+----
+
+Subtext: RealTime Estimation Analysis
+
+----
+
+Year: 2018
+
+----
+
+Text: A fullstack Web Appication utilising Survey.js. Built for use in a conference workshop - allowing all members of the workshop to take part individually and see their own results in real time.
+
+----
+
+Projectno: 6
+
+----
+
+Design: Wreath Inc.
+
+----
+
+Deslink: https://wreathinc.io
+
+----
+
+Link: http://estimation-workshop.herokuapp.com
+
+----
+
+Tech: React, Node, Express, Survey.js, React Charts
+
+----
+
+Vid: ../assets/gifs/rwr-gif.mp4
+
+----
+
+Git: https://github.com/Timothy-Tolley/Estimation-Workshop

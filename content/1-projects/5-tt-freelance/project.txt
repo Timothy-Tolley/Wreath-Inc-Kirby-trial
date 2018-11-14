@@ -1,0 +1,41 @@
+Title: TT FREELANCE.
+
+----
+
+Subtext: 3D Portfolio
+
+----
+
+Year: 2018
+
+----
+
+Text: A fullstack Web Appication utilising Three.js. Built as a point of contact for Timothy Tolley Freelance to reach clients.
+
+----
+
+ProjectNo: 5
+
+----
+
+Design: Wreath Inc.
+
+----
+
+DesLink: https://wreathinc.io
+
+----
+
+Link: https://www.timothytolley.com
+
+----
+
+Tech: React, Node, Express, Three, Css Animations
+
+----
+
+Vid: ../assets/gifs/timothytolley-gif.mp4
+
+----
+
+Git: https://github.com/Timothy-Tolley/timothytolley-3js

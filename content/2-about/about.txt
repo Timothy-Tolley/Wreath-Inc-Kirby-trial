@@ -1,0 +1,37 @@
+Title: About
+
+----
+
+Maintext: Let us handle your web needs so you don't have to.
+
+----
+
+Subtext: At Wreath, we focus on building smooth, functional web applications and websites while working alongside some of the leading design studios out of New Zealand to produce results you'll want to show your mates. 
+
+----
+
+Contacttext: Get in Touch! We'd love to hear from you! 
+
+----
+
+Email: tim@wreathinc.io
+
+----
+
+Phonedisp: (+64) 211832013  
+
+----
+
+Phoneplain: +64211832013  
+
+----
+
+Linkedin: https://linkedin.com/in/timothy-tolley
+
+----
+
+Github: https://github.com/timothy-tolley
+
+----
+
+Instagram: https://instagram.com/wreathinc.io

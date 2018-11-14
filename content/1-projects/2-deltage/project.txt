@@ -1,0 +1,41 @@
+Title: DELTAGE.
+
+----
+
+Subtext: Cryptocurrency Arbitrage Tool
+
+----
+
+Year: 2018
+
+----
+
+Text: A fullstack responsive web appication built in a week in a team of five. The app's purpose is to uncover cryptocurrency arbitrage opportunities.
+
+----
+
+ProjectNo: 2
+
+----
+
+Design: Deltage Team
+
+----
+
+DesLink: https://deltage.nz
+
+----
+
+Link: https://deltage.nz
+
+----
+
+Tech: React, Node, Express, React Charts, Socket.io, Redux, Superagent
+
+----
+
+Vid: ../assets/gifs/deltage-gif.mp4
+
+----
+
+Git: https://github.com/Timothy-Tolley/deltage

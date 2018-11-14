@@ -1,0 +1,41 @@
+Title: BABY?
+
+----
+
+Subtext: Short Film Exposé
+
+----
+
+Year: 2018
+
+----
+
+Text: A fullstack, fully responsive webpage. Built as promotional material for a short film - 'Baby?'. Image heavy paralax design intended to show off some of the stunning imagery from the film.
+
+----
+
+ProjectNo: 4
+
+----
+
+Design: Wreath Inc.
+
+----
+
+DesLink: https://wreathinc.io
+
+----
+
+Link: https://baby-short.herokuapp.com
+
+----
+
+Tech: React, Node, Express
+
+----
+
+Vid: ../assets/gifs/baby-gif.mp4
+
+----
+
+Git: https://github.com/Timothy-Tolley/baby

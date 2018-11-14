@@ -1,0 +1,13 @@
+Title: Wreath Inc.
+
+----
+
+Author: Wreath Inc.
+
+----
+
+Description: Wreath Inc. - Web Development Studio - 
+
+----
+
+Copyright: © 2018 (link: https://wreathinc.io text: Wreath Inc)

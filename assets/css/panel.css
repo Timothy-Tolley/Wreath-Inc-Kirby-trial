@@ -1,0 +1,70 @@
+
+/* League Spartan */
+
+@font-face {
+  font-family: 'LeagueSpartan';
+  src: url('../fonts/leaguespartan-bold.eot');
+  src: url('../fonts/leaguespartan-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.login-image {
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-left: 5%;
+}
+
+.field-icon {
+  display:none;
+}
+
+.login {
+  background-color: black;
+  color: white;
+}
+
+.modal-content {
+  background-color: black;
+  color: white;
+
+}
+
+.label {
+  font-family: "LeagueSpartan"
+}
+
+.label abbr {
+  color: #FFC184;
+}
+
+#form-field-username {
+  border-radius: 5px;
+  font-family: "LeagueSpartan"
+}
+
+#form-field-password {
+  border-radius: 5px;
+  font-family: "LeagueSpartan"
+}
+
+textarea:-webkit-autofill, select:-webkit-autofill {
+  background-color: #FFC184 !important;
+  background-image: none !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+#form-field-password:focus {
+  border-color:#FFC184
+}
+
+#form-field-username:focus {
+  border-color:#FFC184
+}
+
+.btn-rounded {
+  border: 2px solid white;
+  color: white;
+  font-family: "LeagueSpartan";
+  padding: .5em 1.5em;
+}

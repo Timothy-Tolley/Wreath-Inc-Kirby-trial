@@ -1,0 +1,55 @@
+title: Project
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+    width: 3/4
+
+  year:
+    label: Year
+    type:  text
+    width: 1/4
+
+  text:
+    label: Text
+    type:  textarea
+
+  subtext:
+    label: Subtext
+    type:  textarea
+
+  projectNo:
+    label: Project Number
+    type:  text
+    width: 1/4
+  
+  design:
+    label: Designer
+    type:  text
+    width: 3/4
+
+  deslink:
+    label: Designer Link
+    type: text
+  
+  link:
+    label: Site Link
+    type: text
+
+  tech:
+    label: Tech Stack
+    type: textarea
+
+  vid: 
+    label: Video Location
+    type: text
+
+  git: 
+    label: git repo link
+    type: text

@@ -1,0 +1,41 @@
+Title: THORN TREE.
+
+----
+
+Subtext: Full Stack Webpage
+
+----
+
+Year: 2018
+
+----
+
+Text: A fullstack, fully responsive webpage. Built as a point of contact for Thorn Tree ltd to reach clients.
+
+----
+
+ProjectNo: 3
+
+----
+
+Design: Wreath Inc.
+
+----
+
+DesLink: https://wreathinc.io
+
+----
+
+Link: https://thorntree.nz
+
+----
+
+Tech: React, Node, Express, Formio, Mailgun
+
+----
+
+Vid: ../assets/gifs/thorntree-gif.mp4
+
+---- 
+
+Git: https://github.com/Timothy-Tolley/thorn-tree
